@@ -30,7 +30,7 @@ namespace WebBot
         {
             tableLayoutPanel1.Controls.Clear();
             client.Encoding = Encoding.UTF8;
-            client.d
+           
             string html = client.DownloadString(txtBoxUrl.Text);
             document.LoadHtml(html);
             //*[@id="contentProDetail"]/div/div[3]/div[2]/div[1]/div/h2
